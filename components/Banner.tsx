@@ -1,3 +1,5 @@
+import Gnb from "./Gnb";
+
 export default function Banner() {
-  return null
+  return <Gnb/>
 }
