@@ -1,6 +1,3 @@
-import { useState, useEffect, useCallback } from "react";
-import COLORS from "../constants/colors";
-
 export default function Gnb() {
   return (
     <nav>
