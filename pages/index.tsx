@@ -1,3 +1,3 @@
 export default function Home() {
-  return null;
+  return <div style={{ height: "1000vh" }}></div>;
 }
