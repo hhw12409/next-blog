@@ -1,20 +1,10 @@
 import Image from "next/image";
+import Profile from "./Profile";
 
 export default function Gnb() {
   return (
     <nav>
-      <div>
-        <Image
-          src={"/images/profile-image.png"}
-          width={120}
-          height={120}
-          style={{ borderRadius: 60 }}
-          alt="profile-image"
-        />
-        <h1>Frontend Developer Blog</h1>
-        <p>Nice to Meet You,</p>
-        <p>I&apos;m Junior Frontend Developer Hyeonwoo.</p>
-      </div>
+      <Profile/>
       <style jsx>{`
         nav {
           display: flex;
@@ -27,17 +17,13 @@ export default function Gnb() {
           position: fixed;
           height: 25rem;
         }
-        div {
-          width: 768px;
-          margin: 0 auto;
-        }
         @media (max-width: 768px) {
           nav {
             height: 300px;
             padding: 0 20px;
           }
         }
-      `}</style>
+        `}</style>
     </nav>
   );
 }
