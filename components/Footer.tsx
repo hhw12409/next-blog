@@ -4,7 +4,7 @@ export default function Footer() {
     <div>
       <p>
         Thank You for Visiting My Blog, Have a Good Day 😆
-        <br />© {nowYear} Developer Hyeonwoo, Powered By Next.js
+        <br />© {nowYear} Frontend Developer Hyeonwoo, Powered By Next.js
       </p>
       <style jsx>{`
         div {
