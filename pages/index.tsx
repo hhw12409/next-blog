@@ -1,3 +1,12 @@
+import Head from "next/head";
+import Footer from "../components/Footer";
+
 export default function Home() {
-  return <div style={{ height: "1000vh" }}></div>;
+  return (
+    <div>
+      <Head>
+        <title>Tech-Blog | Home</title>
+      </Head>
+    </div>
+  );
 }
