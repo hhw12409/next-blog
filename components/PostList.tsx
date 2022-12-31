@@ -6,7 +6,7 @@ export default function PostList({ posts }: { posts: Post[] }) {
   return (
     <div>
       {posts.map((el) => (
-        <PostItem posts={el} key={el._id} />
+        <PostItem post={el} key={el._id} />
       ))}
       <style jsx>{`
         div {
