@@ -1,10 +1,9 @@
-import Image from "next/image";
 import Profile from "./Profile";
 
 export default function Gnb() {
   return (
     <nav>
-      <Profile/>
+      <Profile />
       <style jsx>{`
         nav {
           display: flex;
@@ -23,7 +22,7 @@ export default function Gnb() {
             padding: 0 20px;
           }
         }
-        `}</style>
+      `}</style>
     </nav>
   );
 }
