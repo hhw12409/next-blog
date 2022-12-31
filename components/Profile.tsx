@@ -14,7 +14,6 @@ export default function Profile() {
       <p>I&apos;m Junior Frontend Developer Hyeonwoo.</p>
       <style jsx>{`
         div {
-          width: 768px;
           margin: 0 auto;
         }
         div > h1 {

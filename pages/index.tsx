@@ -21,7 +21,6 @@ export default function Home({
         div {
           display: flex;
           flex-direction: column;
-          height: 100vh;
         }
       `}</style>
     </div>
