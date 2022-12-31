@@ -1,9 +1,13 @@
 import { Post } from "contentlayer/generated";
+import Banner from "./Banner";
+import PostItem from "./PostItem";
 
 export default function PostList({ posts }: { posts: Post[] }) {
-  console.log(posts[0]);
   return (
     <div>
+      {posts.map((el) => (
+        <PostItem posts={el} key={el._id} />
+      ))}
       <style jsx>{`
         div {
           display: grid;

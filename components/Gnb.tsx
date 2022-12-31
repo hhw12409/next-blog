@@ -13,7 +13,6 @@ export default function Gnb() {
           align-items: flex-start;
           justify-content: center;
           width: 100%;
-          position: fixed;
           height: 25rem;
         }
         @media (max-width: 768px) {

@@ -1,3 +1,5 @@
+import Banner from "components/Banner";
+import Footer from "components/Footer";
 import PostList from "components/PostList";
 import { allPosts } from "contentlayer/generated";
 import { InferGetStaticPropsType } from "next";
@@ -12,7 +14,16 @@ export default function Home({
       <Head>
         <title>{META_DATA.title}</title>
       </Head>
+      <Banner />
       <PostList posts={posts} />
+      <Footer />
+      <style jsx>{`
+        div {
+          display: flex;
+          flex-direction: column;
+          height: 100vh;
+        }
+      `}</style>
     </div>
   );
 }
