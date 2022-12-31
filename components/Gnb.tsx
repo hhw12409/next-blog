@@ -1,4 +1,5 @@
 import Profile from "./Profile";
+import COLORS from "constants/colors";
 
 export default function Gnb() {
   return (
@@ -9,7 +10,7 @@ export default function Gnb() {
           display: flex;
           flex-direction: column;
           background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-          color: #ffffff;
+          color: ${COLORS.WHITE_COLOR};
           align-items: flex-start;
           justify-content: center;
           width: 100%;
